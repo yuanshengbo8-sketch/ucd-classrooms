@@ -1,0 +1,75 @@
+{
+ "note": "Exterior photos from Wikimedia Commons, each checked by eye against the building. scripts/fetch-building-photos.mjs lists candidates; add a building here only after looking at the photo. Images are loaded from upload.wikimedia.org, not copied.",
+ "photos": {
+  "george-hart-hall": {
+   "file": "Animal Science Building, UC Davis.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Animal_Science_Building%2C_UC_Davis.jpg/960px-Animal_Science_Building%2C_UC_Davis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Animal_Science_Building,_UC_Davis.jpg",
+   "by": "Venprof",
+   "license": "CC BY-SA 4.0"
+  },
+  "ghausi-hall": {
+   "file": "Ghausi Hall IMG 8310 (5853765699).jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Ghausi_Hall_IMG_8310_%285853765699%29.jpg/960px-Ghausi_Hall_IMG_8310_%285853765699%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Ghausi_Hall_IMG_8310_(5853765699).jpg",
+   "by": "UC Davis College of Engineering",
+   "license": "CC BY 2.0"
+  },
+  "giedt-hall": {
+   "file": "Giedt Hall (6355488221).jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Giedt_Hall_%286355488221%29.jpg/960px-Giedt_Hall_%286355488221%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Giedt_Hall_(6355488221).jpg",
+   "by": "UC Davis College of Engineering",
+   "license": "CC BY 2.0"
+  },
+  "king-hall": {
+   "file": "Main Entrance of King Hall.jpg",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/d/de/Main_Entrance_of_King_Hall.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "page": "https://commons.wikimedia.org/wiki/File:Main_Entrance_of_King_Hall.jpg",
+   "by": "Davidbrianholt",
+   "license": "CC BY-SA 4.0"
+  },
+  "memorial-union": {
+   "file": "UC Davis Memorial Union.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/UC_Davis_Memorial_Union.jpg/960px-UC_Davis_Memorial_Union.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:UC_Davis_Memorial_Union.jpg",
+   "by": "Borawik",
+   "license": "CC BY-SA 4.0"
+  },
+  "mondavi-center": {
+   "file": "UC Davis Mondavi Center.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/UC_Davis_Mondavi_Center.jpg/960px-UC_Davis_Mondavi_Center.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:UC_Davis_Mondavi_Center.jpg",
+   "by": "Bev Sykes from Davis, CA, USA",
+   "license": "CC BY 2.0"
+  },
+  "mrak-hall": {
+   "file": "Mrak Hall (UC Davis) Across Lake Spafford.jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Mrak_Hall_%28UC_Davis%29_Across_Lake_Spafford.jpg/960px-Mrak_Hall_%28UC_Davis%29_Across_Lake_Spafford.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Mrak_Hall_(UC_Davis)_Across_Lake_Spafford.jpg",
+   "by": "KMashian",
+   "license": "CC BY 4.0"
+  },
+  "shields-library": {
+   "file": "UC Davis Shields Library.jpg",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/e/ef/UC_Davis_Shields_Library.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "page": "https://commons.wikimedia.org/wiki/File:UC_Davis_Shields_Library.jpg",
+   "by": "Vsb",
+   "license": "CC BY-SA 3.0"
+  },
+  "walker-hall": {
+   "file": "Walker Hall (6479395221).jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Walker_Hall_%286479395221%29.jpg/960px-Walker_Hall_%286479395221%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Walker_Hall_(6479395221).jpg",
+   "by": "UC Davis College of Engineering",
+   "license": "CC BY 2.0"
+  },
+  "university-credit-union-center": {
+   "file": "The Pavilion at ARC (UC Davis).jpg",
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/The_Pavilion_at_ARC_%28UC_Davis%29.jpg/960px-The_Pavilion_at_ARC_%28UC_Davis%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:The_Pavilion_at_ARC_(UC_Davis).jpg",
+   "by": "Spatms",
+   "license": "CC BY-SA 4.0"
+  }
+ }
+}

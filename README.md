@@ -67,6 +67,7 @@ node scripts/sync-shared.mjs ../washu-classrooms --check   # only list differenc
 
 - **Classrooms:** the Office of the University Registrar's [General Assignment classroom](https://registrar.ucdavis.edu/faculty-staff/academic-classroom-scheduling/general-assignment-classrooms) room summary.
 - **Study rooms:** the UC Davis Library's [reservation site](https://reservations.library.ucdavis.edu/allspaces). Bookings are a copy up to 20 minutes old; the Library's site is the authority, and booking happens there.
+- **Building photos:** exterior photos for 10 buildings come from [Wikimedia Commons](https://commons.wikimedia.org/) under the licence shown with each one; they are loaded from Commons, not copied. `data/building-photos.json` lists them, each checked by eye. Every building also links to Google Street View.
 - **Map:** © [OpenStreetMap](https://www.openstreetmap.org/copyright) contributors, ODbL. Most trees, the roof shapes and the windows are generated for looks; only a few hundred campus trees are mapped.
 - **Floors and heights:** floors are inferred from room numbers (`1060` and `179` are floor 1, `2205` is floor 2; one- and two-digit rooms such as Wellman 2 are shown as the lower level). Building heights use OpenStreetMap tags where they exist and an estimate otherwise.
 

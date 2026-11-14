@@ -67,6 +67,7 @@ node scripts/sync-shared.mjs ../washu-classrooms --check   # 只列出差异
 
 - **教室：** 注册处（Office of the University Registrar）的[通用教室](https://registrar.ucdavis.edu/faculty-staff/academic-classroom-scheduling/general-assignment-classrooms)一览表。
 - **自习室：** UC Davis 图书馆的[预约网站](https://reservations.library.ucdavis.edu/allspaces)。预约情况是最多滞后 20 分钟的副本，以图书馆网站为准，预约也在那里完成。
+- **建筑照片：** 10 栋楼的外观照片来自 [Wikimedia Commons](https://commons.wikimedia.org/)，按各自标注的许可使用，从 Commons 直接加载、不做拷贝。清单在 `data/building-photos.json`，每张都人工核对过。每栋楼另有 Google 街景链接。
 - **地图：** © [OpenStreetMap](https://www.openstreetmap.org/copyright) 贡献者，ODbL。大部分树、屋顶形状和窗户是为了好看而生成的；校内已测绘的树只有几百棵。
 - **楼层和高度：** 楼层由房间号推断（`1060`、`179` 算 1 楼，`2205` 算 2 楼；Wellman 2 这类一两位数的房间显示为底层）。建筑高度优先用 OpenStreetMap 的标注，没有则估算。
 
