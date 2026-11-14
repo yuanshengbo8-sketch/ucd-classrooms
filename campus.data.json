@@ -1,0 +1,12 @@
+{
+  "name": "University of California, Davis",
+  "origin": [38.5395, -121.7545],
+  "bbox": [38.5300, -121.7700, 38.5480, -121.7400],
+  "bounds": [1350, 1050],
+  "commonsQuery": "UC Davis",
+  "commonsMatch": "uc davis|university of california, davis|ucdavis|davis, california",
+  "nameNoise": [],
+  "timeZone": "America/Los_Angeles",
+  "libcal": "https://reservations.library.ucdavis.edu",
+  "userAgent": "campus-classroom-map data build"
+}

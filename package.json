@@ -1,0 +1,32 @@
+{
+  "name": "ucd-classrooms",
+  "version": "0.1.0",
+  "description": "Unofficial 3D classroom and study-room explorer for UC Davis",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 5184",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "data:osm": "node scripts/fetch-osm.mjs",
+    "data:study": "node scripts/fetch-study-rooms.mjs",
+    "data:availability": "node scripts/fetch-availability.mjs",
+    "data:photos": "node scripts/fetch-building-photos.mjs",
+    "data:build": "node scripts/build-data.mjs"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "three": "^0.180.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.13",
+    "@types/react-dom": "^19.1.9",
+    "@types/three": "^0.180.0",
+    "@vitejs/plugin-react": "^5.0.4",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.7"
+  }
+}
