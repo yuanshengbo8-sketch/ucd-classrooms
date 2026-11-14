@@ -71,7 +71,7 @@ export const CAMPUS: CampusConfig = {
   strings: {
     appName: { en: 'UC Davis Classroom Explorer', zh: 'UC Davis 教室地图' },
     searchPlaceholder: { en: 'Search rooms and buildings', zh: '搜索教室、教学楼' },
-    directoryPage: { en: 'Registrar page with photos', zh: '注册处页面（含照片）' },
+    directoryPage: { en: 'Registrar page', zh: '注册处页面' },
     roomNotPublic: {
       en: 'UC Davis’s public Class Search Tool lists meeting times but not rooms. Check Schedule Builder for the room.',
       zh: 'UC Davis 公开的 Class Search Tool 只有上课时间，没有教室；具体教室请在 Schedule Builder 查看。'
@@ -112,8 +112,8 @@ export const CAMPUS: CampusConfig = {
       zh: '非官方学生项目：把 UC Davis 的通用教室和 Shields Library 自习室放到校园的 3D 地图上。本站与 University of California, Davis 无隶属关系，也未获其背书。'
     },
     aboutClassrooms: {
-      en: 'Classroom sizes, seating, boards and AV: the Office of the University Registrar’s General Assignment room summary. Each room links to the Registrar’s page, which has its photos.',
-      zh: '教室的容量、座位、黑板和影音设备：注册处（Office of the University Registrar）的通用教室一览表。每间教室都链接到注册处的页面，那里有照片。'
+      en: 'Classroom sizes, seating, boards and AV: the Office of the University Registrar’s General Assignment room summary. Room photos are the Registrar’s, loaded from the university’s server.',
+      zh: '教室的容量、座位、黑板和影音设备：注册处（Office of the University Registrar）的通用教室一览表。教室照片是注册处的，直接从学校的服务器加载。'
     },
     aboutCourses: {
       en: 'Courses: the Registrar’s public Class Search Tool lists times but not rooms, so there is no course search here.',

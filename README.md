@@ -14,7 +14,7 @@ It runs on the same code as the [WashU Classroom Explorer](https://github.com/yu
 
 - **Study rooms with live bookings.** The eight group study rooms in Shields Library that students can book. Each shows whether it is free right now and until when, a strip of today's and tomorrow's bookings, and a button to its page on the Library's reservation site.
 - **3D campus map.** The campus is drawn from OpenStreetMap: buildings with roofs and window bays, lawns, courts, parking and named streets. Buildings with General Assignment classrooms have blue roofs and a label with their room count; Shields Library is gold.
-- **Classrooms.** The 143 General Assignment classrooms on the map, in 32 buildings: capacity, seating, boards, AV package and lecture capture, with a link to the Registrar's page for each room, which has its photos.
+- **Classrooms.** The 143 General Assignment classrooms on the map, in 32 buildings: capacity, seating, boards, AV package and lecture capture, and the Registrar's photos of 141 of them.
 - **Floor stack.** Selecting a building splits it into floors. Floors come from room numbers.
 - **Seat view.** Pick any seat in a schematic of the room and look at the board from it. The schematic is generated from the seat count and seating style; it is not the real room.
 - **Find a room.** Filter by minimum capacity, seating and equipment.
@@ -24,7 +24,7 @@ It runs on the same code as the [WashU Classroom Explorer](https://github.com/yu
 ## What it cannot do yet
 
 - **Which classrooms are free.** UC Davis's public [Class Search Tool](https://registrar-apps.ucdavis.edu/courses/search/index.cfm) lists meeting times but not rooms; rooms are in Schedule Builder, behind a login. So there is no classroom timetable and no course search here.
-- **Classroom photos in the page.** The Registrar's site turns scripts away, so this project does not copy its room pages. Each classroom links to the Registrar's page instead.
+- **Photo thumbnails in the room lists.** The Registrar's classroom photos are a few megabytes each, so lists only say how many photos a room has; they load when you open the room.
 - **Five classrooms in the Edwards Family Athletics Center** are in the Registrar's list but the building is not on this map.
 
 ## Run it locally
@@ -46,6 +46,7 @@ Then open http://localhost:5184/.
 npm run data:osm            # OpenStreetMap buildings, paths, trees and green space
 npm run data:study          # bookable rooms from the Library's reservation site
 npm run data:photos         # candidate building photos from Wikimedia Commons, to pick from by hand
+npm run data:classroom-photos   # photo addresses for each classroom, from archived copies of the Registrar's room pages
 npm run data:build          # writes classrooms.json and campus.json
 npm run data:availability   # today's and tomorrow's study-room bookings
 ```
@@ -66,6 +67,7 @@ node scripts/sync-shared.mjs ../washu-classrooms --check   # only list differenc
 ## Data and accuracy
 
 - **Classrooms:** the Office of the University Registrar's [General Assignment classroom](https://registrar.ucdavis.edu/faculty-staff/academic-classroom-scheduling/general-assignment-classrooms) room summary.
+- **Classroom photos:** the Registrar's own photos, for 141 of the 143 classrooms. The Registrar's site turns scripts away, so the photo addresses were read once from the [Internet Archive](https://web.archive.org/)'s copies of its room pages and are listed in `data/classroom-photos.json`. The photos are not copied: your browser loads them from the university's server.
 - **Study rooms:** the UC Davis Library's [reservation site](https://reservations.library.ucdavis.edu/allspaces). Bookings are a copy up to 20 minutes old; the Library's site is the authority, and booking happens there.
 - **Building photos:** exterior photos for 10 buildings come from [Wikimedia Commons](https://commons.wikimedia.org/) under the licence shown with each one; they are loaded from Commons, not copied. `data/building-photos.json` lists them, each checked by eye. Every building also links to Google Street View.
 - **Map:** © [OpenStreetMap](https://www.openstreetmap.org/copyright) contributors, ODbL. Most trees, the roof shapes and the windows are generated for looks; only a few hundred campus trees are mapped.

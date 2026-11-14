@@ -14,6 +14,7 @@
     "data:study": "node scripts/fetch-study-rooms.mjs",
     "data:availability": "node scripts/fetch-availability.mjs",
     "data:photos": "node scripts/fetch-building-photos.mjs",
+    "data:classroom-photos": "node scripts/fetch-classroom-photos.mjs",
     "data:build": "node scripts/build-data.mjs"
   },
   "dependencies": {

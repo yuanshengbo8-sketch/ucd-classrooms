@@ -62,6 +62,14 @@ const tidy = text => {
   return clean.charAt(0).toUpperCase() + clean.slice(1).replace(/\bSeating\b/, 'seating')
 }
 
+// Photo addresses per room, read once by scripts/fetch-classroom-photos.mjs.
+let roomPhotos = {}
+try {
+  roomPhotos = JSON.parse(await readFile(join(ROOT, 'data', 'classroom-photos.json'), 'utf8')).photos
+} catch {
+  console.warn('data/classroom-photos.json not found: classrooms will have no photos')
+}
+
 const summary = await readFile(join(RAW, 'ga', 'summary.html'), 'utf8')
 const classrooms = []
 for (const row of summary.matchAll(/<tr[^>]*>([\s\S]*?)<\/tr>/g)) {
@@ -113,7 +121,8 @@ for (const row of summary.matchAll(/<tr[^>]*>([\s\S]*?)<\/tr>/g)) {
     darkening: '',
     accessible: false,
     equipment: [...new Set(equipment)],
-    photos: [],
+    // The photos are a few megabytes each, so there is no small copy for lists.
+    photos: roomPhotos[link[2]] ?? [],
     seatMaps: [],
     tour: null,
     url: `${REGISTRAR}${link[1]}`
@@ -175,6 +184,7 @@ await writeFile(join(OUT, 'campus.json'), JSON.stringify(campus))
 const count = (list, key) => Object.fromEntries([...list.reduce((map, room) => map.set(room[key], (map.get(room[key]) ?? 0) + 1), new Map())].sort((a, b) => b[1] - a[1]))
 console.log(`${shown.length} classrooms in ${roomsByBuilding.size} buildings`)
 if (dropped.length) console.log('not on the map:', dropped.map(room => `${room.buildingName} ${room.room}`).join(', '))
+console.log(`${shown.filter(room => room.photos.length).length} classrooms have photos`)
 console.log(`${buildings.filter(building => building.photo).length} buildings have an exterior photo`)
 console.log('labelled without rooms:', buildings.filter(b => b.rooms === 0 && !b.minor).map(b => b.name).join(' | '))
 console.log(`${buildings.length} named buildings, ${context.length} context buildings, ${paths.length} paths, ${areas.length} areas, ${campus.trees.length / 2} trees`)

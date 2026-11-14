@@ -1,0 +1,566 @@
+{
+ "source": "https://registrar.ucdavis.edu/faculty-staff/academic-classroom-scheduling/general-assignment-classrooms",
+ "fetched": "2026-11-14",
+ "photos": {
+  "bainer-1060": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/1060%20Banier_From%20Back%201.JPG",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/1060%20Banier_From%20Front%201.JPG"
+  ],
+  "bainer-1128": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/1128%20Banier_From%20Back%203.JPG",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/bainer_1128_from_front.jpg"
+  ],
+  "bainer-1130": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/1130%20Banier_From%20Back%202.JPG",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/1130%20Banier_From%20Front%202.JPG"
+  ],
+  "bainer-1132": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/1132%20Banier_From%20Back%202.JPG",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/1132%20Banier_From%20Front%202.JPG"
+  ],
+  "bainer-1134": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/1134%20Banier_From%20Back%203.JPG",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/1134%20Banier_From%20Back%202.JPG"
+  ],
+  "california-1100": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/1100%20CALIFO_fromBack.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/1100%20CALIFO_fromFront.jpg"
+  ],
+  "chemistry-179": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/179%20Chemistry_From%20Back%203.JPG",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/179%20Chemistry_From%20Front%203.JPG"
+  ],
+  "kerr-293": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/kerr293_a.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/kerr293_b.jpg"
+  ],
+  "cruess-107": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Cruess%20107%20Rear.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Cruess%20107%20Front2.jpg"
+  ],
+  "cruess-1002": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Cruess%201002%20Side.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Cruess%201002%20Front.jpg"
+  ],
+  "cruess-1003": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Cruess%201003%20FrontCorner.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Cruess%201003%20Rear.jpg"
+  ],
+  "everson-176": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/176%20Everson_From%20Back%201.JPG",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/176%20Everson_From%20Front%203.JPG"
+  ],
+  "hart-1106": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/hart1106_front.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/hart1106_back.jpg"
+  ],
+  "hart-1116": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/1116%20Hart_From%20Front.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/1116%20Hart_From%20Back.jpg"
+  ],
+  "hart-1120": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/1120%20Hart_From%20Back.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/1120%20Hart_From%20Front.jpg"
+  ],
+  "hart-1128": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/1128%20Hart_From%20Front.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/1128%20Hart_From%20Back.jpg"
+  ],
+  "hart-1130": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/thumbnail_Hart_1130_back.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/thumbnail_Hart_1130_front.jpg"
+  ],
+  "hart-1150": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/thumbnail_Hart_1150_back.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/thumbnail_Hart_1150_front.jpg"
+  ],
+  "giedt-1001": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/1001%20Giedt_From%20Back%202.JPG",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/1001%20Giedt_From%20Front%202.JPG"
+  ],
+  "giedt-1002": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Giedt%20Hall_1002_frontleft.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Giedt%20Hall_1002_back.jpg"
+  ],
+  "giedt-1003": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/1003%20Giedt_From%20Back%202.JPG",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/1003%20Giedt_From%20Front%202.JPG"
+  ],
+  "giedt-1006": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Giedt%20Hall_1006_frontleft.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Giedt%20Hall_1006_backleft.jpg"
+  ],
+  "giedt-1007": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Giedt%20Hall_1007_frontleft.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Giedt%20Hall_1007_backleft.jpg"
+  ],
+  "hickey-290": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/290%20Hickey%20Gym-From%20Back%201.JPG",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/290%20Hickey%20Gym-From%20Back%202.JPG",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/290%20Hickey%20Gym-From%20Front%201.JPG",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/290%20Hickey%20Gym-From%20Front%202.JPG"
+  ],
+  "hoagland-108": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/hoagland108_front.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/hoagland108_back.jpg"
+  ],
+  "hoagland-113": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/hoagland113_back.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/113%20Hoagland.jpg"
+  ],
+  "hoagland-168": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/hoagland_1681.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/hoagland_168a1.jpg"
+  ],
+  "hunt-100": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/hh0100.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/hunt_100.JPG"
+  ],
+  "hunt-110": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/hunt_110a.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/hunt_110.jpg"
+  ],
+  "hutchison-102": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/102%20Hutchinson_From%20Front.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/102%20Hutchinson_From%20Back.jpg"
+  ],
+  "hutchison-115": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/115%20Hutchinson_From%20Back.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/115%20Hutchinson_From%20Front.jpg"
+  ],
+  "kleiber-3": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/kl0003.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/kl0003a.jpg"
+  ],
+  "medsci-c-180": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/mdsc_c_180.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/mdsc_c_180a1.jpg"
+  ],
+  "olson-6": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/6%20Olson_From%20Back%202.JPG",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/6%20Olson_From%20Front%202.JPG"
+  ],
+  "olson-101": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Olson%20101_front.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Olson%20101_back.jpg"
+  ],
+  "olson-105": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/ol105b_up1.JPG",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/105%20OLSON_From%20Front2.jpg"
+  ],
+  "olson-106": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/106%20Olson_From%20Back%202.JPG",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/106%20Olson_From%20Front%202.JPG"
+  ],
+  "olson-109": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/IMG_2556.JPG",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/IMG_2553.JPG"
+  ],
+  "olson-117": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Olson_117_backright.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Olson_117_frontleft.jpg"
+  ],
+  "olson-118": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/118%20OLSON_From%20Back.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/118%20OLSON_From%20Front.jpg"
+  ],
+  "olson-125": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Olson%20125_front.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Olson%20125_back.jpg"
+  ],
+  "olson-141": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Olson%20141_front.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Olson%20141_back.jpg"
+  ],
+  "olson-144": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/IMG_2555.JPG",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/IMG_2554.JPG"
+  ],
+  "olson-146": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Olson_146_backright.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Olson_146_frontright.jpg"
+  ],
+  "olson-147": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Olson_147_front.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Olson_147_backright.jpg"
+  ],
+  "olson-151": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Olson_151_backleft.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Olson_151_frontleft.jpg"
+  ],
+  "olson-158": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/158%20Olson_From%20Back%201.JPG",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/158%20Olson_From%20Front%202.JPG"
+  ],
+  "olson-159": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Olson%20159%20whiteboard.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Olson%20159%20instructor%20perspective.jpg"
+  ],
+  "olson-163": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Olson%20163_front.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Olson%20163_back.jpg"
+  ],
+  "olson-167": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Olson%20167%20screen.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Olson%20167%20Desks.jpg"
+  ],
+  "olson-205": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/205%20OLSON_From%20Back.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/205%20OLSON_From%20Front.jpg"
+  ],
+  "olson-206": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/206%20Olson_From%20Back%201.JPG",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/206%20Olson_From%20Front%201.JPG"
+  ],
+  "olson-207": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/207%20OLSON_From%20Back.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/207%20OLSON_From%20Front.jpg"
+  ],
+  "olson-217": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Olson_217_frontleft.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Olson_217_frontright.jpg"
+  ],
+  "olson-223": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Olson_223_backleft%20(2).jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Olson_223_frontleft.jpg"
+  ],
+  "olson-227": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/227%20OLSON_From%20Back.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/227%20OLSON_From%20Front.jpg"
+  ],
+  "olson-244": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Olson_244_back.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Olson_244_frontleft.jpg"
+  ],
+  "olson-250": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Olson_250_projector.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Olson_250_frontright.jpg"
+  ],
+  "olson-251": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Olson_251_backright1.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Olson_251_front.jpg"
+  ],
+  "olson-261": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/ol261_up.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/261%20OLSON_From%20Back.jpg"
+  ],
+  "olson-267": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/267%20OLSON_From%20Front.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Olson%20267%20instructor%20perspective.jpg"
+  ],
+  "rock-194": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Rock%20Hall%20front%209-25-2013.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Rock%20Hall%20back%209-25-2013.jpg"
+  ],
+  "physics-130": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/130%20Physics_From%20Front%201.JPG",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/130%20Physics_From%20Back%202.JPG"
+  ],
+  "physics-140": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/140%20Physics_From%20Front%201.JPG",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/140%20Physics_From%20Back%202.JPG"
+  ],
+  "physics-148": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/148%20Physics_From%20Back%202.JPG",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/148%20Physics_From%20Front%201.JPG"
+  ],
+  "khaira%20-123": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/sciences_lecture_hall_123a.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/slh0132.jpg"
+  ],
+  "robbins-146": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Robbins%20146%20From%20Back.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Robbins%20146%20From%20Front.jpg"
+  ],
+  "roessler-55": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Roessler%2055%20From%20Back.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Roessler%2055%20From%20Front.jpg"
+  ],
+  "roessler-66": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/66%20Roessler_From%20Back%202.JPG",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/66%20Roessler_From%20Front%202.JPG"
+  ],
+  "shields-167": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/167%20Shields%20Library_fromBack.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/167%20Shields%20Library_fromFront2.jpg"
+  ],
+  "ssh-70": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/socialsciences70_front.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/socialsciences70_back.jpg"
+  ],
+  "ssh-80": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/80%20Social%20Sciences_From%20Rear%201.JPG",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/80%20Social%20Sciences_From%20Rear%202.JPG",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/80%20Social%20Sciences_From%20Front%202.JPG",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/80%20Social%20Sciences_From%20Front%201.JPG"
+  ],
+  "ssh-90": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/socialsciences90_front.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/90%20Social%20Sciences.jpg"
+  ],
+  "ssh-1100": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/1100%20SOCSCI_fromBack.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/socialsciences1100_front.jpg"
+  ],
+  "storer-1322": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/thumbnail_Storer_1322_back.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/thumbnail_Storer_1322_front.jpg"
+  ],
+  "storer-1342": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/1342%20Storer_From%20Front.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/1342%20Storer_From%20Back.jpg"
+  ],
+  "storer-1344": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/1344%20Storer_From%20Front.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/1344%20Storer_From%20Back.jpg"
+  ],
+  "tlc-1010": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/TLC%201010%20From%20Back.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/TLC%201010%20From%20Front.jpg"
+  ],
+  "tlc-1020": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/TLC%201020%20From%20Back.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/TLC%201020%20From%20Front.jpg"
+  ],
+  "tlc-1212": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/TLC%201212%20From%20Door.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/TLC%201212%20From%20Back.jpg"
+  ],
+  "tlc-1214": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/TLC%201214%20From%20Back.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/TLC%201214%20From%20Door.jpg"
+  ],
+  "tlc-1215": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/TLC%201215%20From%20Back.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/TLC%201215%20Screens.jpg"
+  ],
+  "tlc-1218": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/TLC%201218%20From%20Front.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/TLC%201218%20From%20Front%202.jpg"
+  ],
+  "tlc-2000E": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/TLC%202000E%20From%20Door.jpg"
+  ],
+  "tlc-2010": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/TLC%202010%20From%20Front.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/TLC%202010%20From%20Back.jpg"
+  ],
+  "TLC-2215": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/TLC%202215%20From%20Front.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/TLC%202215%20From%20Back.jpg"
+  ],
+  "tlc-2218": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/TLC%202218%20From%20Door.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/TLC%202218%20From%20Back.jpg"
+  ],
+  "tlc-3210": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/TLC%203210%20From%20Front.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/TLC%203210%20From%20Center.jpg"
+  ],
+  "tlc-3211": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/TLC%203211A.JPG",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/TLC%203211B.jpg"
+  ],
+  "tlc-3212": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/3212%20TLCA.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/3212%20TLCB.jpg"
+  ],
+  "tlc-3213": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/3213%20TLCA.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/3213%20TLCB.jpg"
+  ],
+  "tlc-3214": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/3214%20TLC_From%20PDF.JPG"
+  ],
+  "tlc-3215": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/TLC%203215A.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/TLC%203215B.jpg"
+  ],
+  "tlc-3218": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/3218%20TLC_From%20PDF.JPG"
+  ],
+  "grove-1283": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/1283%20Grove_From%20Front%202.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/1283%20Grove_From%20Back%202.jpg"
+  ],
+  "grove-1309": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/1309%20Grove_From%20Front%203.JPG",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/1309%20Grove_From%20Back%202.JPG"
+  ],
+  "veihmeyer-116": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/veih116b_up.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/116%20Veihmeyer.jpg"
+  ],
+  "veihmeyer-212": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Veihmeyer%20212%20front%209-25-2013.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Veihmeyer%20212%20back%209-24-2013.jpg"
+  ],
+  "walker-1310": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Walker%201310%20Rear.jpg"
+  ],
+  "walker-1320": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Walker%2013201.jpg"
+  ],
+  "walker-1330": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/1330%20Walker%20Back.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/1330%20Walker%20Front.jpg"
+  ],
+  "wellman-1": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/1%20Wellman_From%20Back.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/1%20Wellman_From%20Front.jpg"
+  ],
+  "wellman-2": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Wellman%202%20Rear.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Wellman%202%20Side.jpg"
+  ],
+  "wellman-3": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/wellman003_front.jpg"
+  ],
+  "wellman-5": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/wellman005_front.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/wellman005_back.jpg"
+  ],
+  "wellman-6": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Wellman%206%20Front1.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Wellman%206%20Rear%20Pano.jpg"
+  ],
+  "wellman-7": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/7%20Wellman_From%20Back.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/7%20Wellman_From%20Front.jpg"
+  ],
+  "wellman-25": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/25%20Wellman%20From%20Back.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/25%20Wellman%20From%20Front.jpg"
+  ],
+  "wellman-26": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Wellman%2026%20Front1.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Wellman%2026%20Rear.jpg"
+  ],
+  "wellman-27": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Wellman%2027%20back.jpg"
+  ],
+  "wellman-101": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/101%20Wellman_From%20Front.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/we0101.jpg"
+  ],
+  "wellman-103": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/103%20Wellman_From%20Back.jpg"
+  ],
+  "wellman-105": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/we0105a.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/we0105.jpg"
+  ],
+  "wellman-106": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Wellman%20106%20Rear.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Wellman%20106%20Front.jpg"
+  ],
+  "wellman-107": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/wellmn_107a.JPG",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/wellmn_107b.JPG"
+  ],
+  "wellman-109": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/109%20Wellman_From%20Back%201.JPG",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/109%20Wellman_From%20Front%202.JPG"
+  ],
+  "wellman-115": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Wellman%20115%20Rear.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Wellman%20115%20Front.jpg"
+  ],
+  "wellman-119": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Wellman%20119%20Rear.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Wellman%20119%20Desk.jpg"
+  ],
+  "wellman-123": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/wellman123_front.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/wellman123_back.jpg"
+  ],
+  "wellman-126": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Wellman%20126%20Rear.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Wellman%20126%20Front.jpg"
+  ],
+  "wellman-127": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/we0127.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/we0127a.jpg"
+  ],
+  "wellman-129": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/wellman129_front.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/wellman129_back.jpg"
+  ],
+  "wellman-201": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/201%20Wellman_From%20Back%201.JPG",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/201%20Wellman_From%20Front%202.JPG"
+  ],
+  "wellman-202": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Wellman%20202%20Front.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Wellman%20202%20FrontDesk2.jpg"
+  ],
+  "wellman-203": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/203%20Wellman-From%20Front%202.JPG",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/203%20Wellman-From%20Back%201.JPG"
+  ],
+  "wellman-205": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/205%20Wellman_From%20Back%202.JPG",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/205%20Wellman_From%20Front%201.JPG"
+  ],
+  "wellman-207": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/207%20Wellman_From%20Back%201.JPG",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/207%20Wellman_From%20Front%202.JPG"
+  ],
+  "wellman-212": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Wellman%20212%20Front.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Wellman%20212%20Rear.jpg"
+  ],
+  "wellman-216": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/216%20Wellman_From%20Rear%202.JPG",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Wellman%20216%20Front.jpg"
+  ],
+  "wellman-226": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/226%20Wellman_From%20Rear%201.JPG",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Wellman%20226%20Front%202.jpg"
+  ],
+  "wellman-229": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/229%20Wellman_From%20Rear%202.JPG",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/229%20Wellman_From%20Front%201.JPG"
+  ],
+  "wellman-230": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/230%20Wellman-From%20Back%202.JPG",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Wellman%20230%20Front.jpg"
+  ],
+  "wellman-233": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/233%20Wellman_From%20Back%2021.JPG",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/233%20Wellman_From%20Front%201.JPG"
+  ],
+  "wellman-234": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/234%20Wellman-From%20Front%201.JPG",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Wellman%20234%20Rear.jpg"
+  ],
+  "wellman-235": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/235%20Wellman_From%20Rear%202.JPG",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/235%20Wellman_From%20Front%202.JPG"
+  ],
+  "wickson-1020": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/wi1020.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/1020%20Wickson_From%20Front.jpg"
+  ],
+  "wickson-1038": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/wickson1038_front.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/1038%20Wickson_From%20Front.jpg"
+  ],
+  "young-184": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Young%20184%20Front.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Young%20184%20Rear.jpg"
+  ],
+  "young-192": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Young%20192%20Rear.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Young%20192%20Front.jpg"
+  ],
+  "young-194": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Young%20194%20Rear.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Young%20194%20Front.jpg"
+  ],
+  "young-198": [
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Young%20198%20Rear%202.jpg",
+   "https://local-resources.ucdavis.edu/local_resources/images/room-lookup/Young%20198%20Front.jpg"
+  ]
+ }
+}

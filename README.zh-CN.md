@@ -14,7 +14,7 @@
 
 - **自习室与实时预约：** Shields Library 里学生可以预约的 8 间小组自习室。每间显示现在是否空着、空到几点，今天和明天的预约时间条，以及直达图书馆预约页的按钮。
 - **3D 校园地图：** 由 OpenStreetMap 生成：带屋顶和窗格的建筑、草坪、球场、停车场和带路名的道路。有通用教室的楼是蓝色屋顶，标签上写着教室数量；Shields Library 是金色。
-- **教室：** 地图上的 143 间通用教室，分布在 32 栋楼：容量、座位形式、黑板、影音设备和课堂录制，并链接到注册处的教室页面（那里有照片）。
+- **教室：** 地图上的 143 间通用教室，分布在 32 栋楼：容量、座位形式、黑板、影音设备和课堂录制，其中 141 间有注册处拍的教室照片。
 - **楼层分解：** 选中一栋楼后按楼层拆开。楼层由房间号推断。
 - **座位视角：** 在教室示意图里点任意座位，从那个位置看黑板。示意图根据座位数和座位形式生成，不是真实教室。
 - **找教室：** 按最少座位数、座位形式和设备筛选。
@@ -24,7 +24,7 @@
 ## 目前做不到的
 
 - **哪间教室空着：** UC Davis 公开的 [Class Search Tool](https://registrar-apps.ucdavis.edu/courses/search/index.cfm) 只有上课时间，没有教室；教室在需要登录的 Schedule Builder 里。所以这里没有教室课表，也没有课程搜索。
-- **页面内的教室照片：** 注册处网站会拦截脚本，所以本项目不复制它的教室页面，而是每间教室链接到注册处的页面。
+- **教室列表里的照片缩略图：** 注册处的教室照片每张有几 MB，所以列表里只标出有几张照片，点开教室才加载。
 - **Edwards Family Athletics Center 的 5 间教室** 在注册处清单里，但那栋楼不在这张地图上。
 
 ## 本地运行
@@ -46,6 +46,7 @@ npm run dev
 npm run data:osm            # OpenStreetMap 建筑、道路、树木、绿地
 npm run data:study          # 图书馆预约网站上的可预约房间
 npm run data:photos         # Wikimedia Commons 上的建筑照片候选，需人工挑选
+npm run data:classroom-photos   # 每间教室的照片地址，来自注册处教室页面的存档
 npm run data:build          # 生成 classrooms.json 和 campus.json
 npm run data:availability   # 今天和明天的自习室预约情况
 ```
@@ -66,6 +67,7 @@ node scripts/sync-shared.mjs ../washu-classrooms --check   # 只列出差异
 ## 数据与准确性
 
 - **教室：** 注册处（Office of the University Registrar）的[通用教室](https://registrar.ucdavis.edu/faculty-staff/academic-classroom-scheduling/general-assignment-classrooms)一览表。
+- **教室照片：** 注册处自己拍的照片，143 间教室里有 141 间。注册处网站会拦截脚本，所以照片地址是从 [Internet Archive](https://web.archive.org/) 保存的教室页面里读取一次得到的，清单在 `data/classroom-photos.json`。照片不做拷贝，由你的浏览器直接从学校的服务器加载。
 - **自习室：** UC Davis 图书馆的[预约网站](https://reservations.library.ucdavis.edu/allspaces)。预约情况是最多滞后 20 分钟的副本，以图书馆网站为准，预约也在那里完成。
 - **建筑照片：** 10 栋楼的外观照片来自 [Wikimedia Commons](https://commons.wikimedia.org/)，按各自标注的许可使用，从 Commons 直接加载、不做拷贝。清单在 `data/building-photos.json`，每张都人工核对过。每栋楼另有 Google 街景链接。
 - **地图：** © [OpenStreetMap](https://www.openstreetmap.org/copyright) 贡献者，ODbL。大部分树、屋顶形状和窗户是为了好看而生成的；校内已测绘的树只有几百棵。
