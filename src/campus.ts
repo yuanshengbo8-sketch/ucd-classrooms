@@ -11,6 +11,8 @@ export const CAMPUS: CampusConfig = {
   timeZone: 'America/Los_Angeles',
   repoUrl: 'https://github.com/yuanshengbo8-sketch/ucd-classrooms',
   liveAvailabilityUrl: 'https://raw.githubusercontent.com/yuanshengbo8-sketch/ucd-classrooms/live-data/study-availability.json',
+  // UC Davis does not publish which room a class meets in.
+  classSchedule: false,
   labelNames: {
     'George Hart Hall': 'Hart',
     'Clark Kerr Hall': 'Kerr',
@@ -127,6 +129,7 @@ export const CAMPUS: CampusConfig = {
       en: 'Floors are inferred from room numbers. Building heights, roof shapes and the floor stack are for display, not survey data.',
       zh: '楼层由房间号推断；建筑高度、屋顶形状和楼层分解仅用于展示，并非实测。'
     },
+    aboutSchedule: { en: 'There is no class schedule by room for UC Davis.', zh: 'UC Davis 没有按教室的课表。' },
     aboutCredit: {
       en: 'Built on the same code as the WashU Classroom Explorer, inspired by the UCSD Classroom Explorer by zhenzhenfufu, wenhaoquestion and SheepTester.',
       zh: '与 WashU 教室地图使用同一套代码，灵感来自 zhenzhenfufu、wenhaoquestion 与 SheepTester 的 UCSD Classroom Explorer。'
